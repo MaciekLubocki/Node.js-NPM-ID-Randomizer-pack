@@ -1,0 +1,1 @@
+This package create based on available list of characters random id string. 
