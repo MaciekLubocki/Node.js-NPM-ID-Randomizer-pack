@@ -1,7 +1,7 @@
 const randomId = (idLength) => {
 let id = '';
 const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-const charAmount = characters.length;
+const charsAmount = characters.length;
 for(let i=0; i < idLength; i++) {
     id += characters.charAt(Math.floor(Math.random() * charsAmount));
 }
